@@ -240,7 +240,7 @@ while True:
       print("{}, {} {}, {}".format(*student))
       
   elif choice == "2": #wyszukaj
-    os.system('clear')
+    os.system('cls')
     zmienna_boolowska = True
     while zmienna_boolowska == True:
       indeks = input("Podaj nr indeksu: ")
@@ -256,7 +256,7 @@ while True:
 
 
   elif choice == "3": #dopisz ocene
-    os.system('clear')
+    os.system('cls')
 
     zmienna_boolowska = True
 
@@ -299,7 +299,7 @@ while True:
     
 
   elif choice == "4": #wyswietl oceny, srednia, punkty ECTS
-    os.system('clear')
+    os.system('cls')
     print("Numer indeksu ma zawsze 5 cyfr.")
     print("Wszystkie litery przedmiotu muszą być z małej litery.")
     print("\n")
@@ -390,7 +390,7 @@ while True:
       print("Podany przedmiot nie figuruje w bazie / błąd w pisowni")
 
   else:
-    os.system('clear')
+    os.system('cls')
     print("Wybrano opcje spoza dostępnego przedzialu (1-4)")
       
  
